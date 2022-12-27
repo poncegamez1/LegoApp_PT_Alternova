@@ -5,4 +5,14 @@
     <string name="stock_text">Stock:</string>
     <string name="unit_price_text">Precio Unitario:</string>
     <string name="description_text">Descripción:</string>
+    <string name="login_buttom">Iniciar Sesión</string>
+    <string name="LegoApp">LegoApp</string>
+    <string name="repeat_password">Repita la Contraseña</string>
+    <string name="create_account">Crear Cuenta</string>
+    <string name="register">Si no tienes cuenta, <b><u>Regístrate</u></b></string>
+    <string name="username">Nombre de Usuario</string>
+    <string name="id">Id:</string>
+    <string name="name">Nombre:</string>
+    <string name="stock">Stock:</string>
+    <string name="price">Precio Unitario:</string>
 </resources>
