@@ -38,11 +38,11 @@ class LegosRepositoryImpl @Inject constructor(
     override suspend fun getProductDetail(id: Int): Optional<DetailProduct> {
         return if(isMockEnabled){
             val name = when(id){
-                1 -> "mock_product_detail_1"
-                2 -> "mock_product_detail_2"
-                3 -> "mock_product_detail_3"
-                4 -> "mock_product_detail_4"
-                5 -> "mock_product_detail_5"
+                1 -> "mock_product_detail_1.json"
+                2 -> "mock_product_detail_2.json"
+                3 -> "mock_product_detail_3.json"
+                4 -> "mock_product_detail_4.json"
+                5 -> "mock_product_detail_5.json"
                 else -> ""
             }
             val json = JsonUtils.getJsonDataFromAsset(context, name)
