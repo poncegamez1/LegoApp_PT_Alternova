@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "171125284876",
+    "project_id": "legoapp-ae114",
+    "storage_bucket": "legoapp-ae114.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171125284876:android:f203034295d41013200e29",
+        "android_client_info": {
+          "package_name": "com.poncegamez.legoapp_pt_alternova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171125284876-dcjh1fgn1eu0gnfil8fifot9bqshbu3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFp93vkf197nJcsNCnnvJZW6KDLggv8iU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171125284876-dcjh1fgn1eu0gnfil8fifot9bqshbu3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
