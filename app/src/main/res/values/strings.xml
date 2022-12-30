@@ -15,4 +15,5 @@
     <string name="name">Nombre:</string>
     <string name="stock">Stock:</string>
     <string name="price">Precio Unitario:</string>
+    <string name="back_text_button">Atrás</string>
 </resources>

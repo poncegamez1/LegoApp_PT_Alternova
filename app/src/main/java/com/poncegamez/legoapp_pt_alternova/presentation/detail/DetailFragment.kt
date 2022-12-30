@@ -6,6 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.poncegamez.legoapp_pt_alternova.databinding.FragmentDetailBinding
 import com.squareup.picasso.Picasso
@@ -39,6 +40,9 @@ class DetailFragment : Fragment() {
             detailBinding.editUnitPriceTextView.text = detailProduct.unitPrice.toString()
             detailBinding.editDescriptionTextView.text = detailProduct.description
             Picasso.get().load(detailProduct.image).into(detailBinding.pictureImageView)
+            detailBinding.backButton.setOnClickListener {
+                findNavController().navigate(DetailFragmentDirections.actionDetailFragmentToListFragment())
+            }
 
         }
     }
