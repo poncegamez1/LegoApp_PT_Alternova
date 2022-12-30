@@ -10,12 +10,11 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-
 @Module
 @InstallIn(SingletonComponent::class)
 
 object NetworkModule {
-     private const val BASE_URL = "https://525aa86b-e6ee-4e67-bbdf-f4d543d5701a.mock.pstmn.io"
+     private const val BASE_URL = "https://489a19f7-f7d2-426a-8361-230148034a79.mock.pstmn.io"
 
      @Provides
      fun providesOkHttpClient(): OkHttpClient{

@@ -31,7 +31,7 @@ class LegosRepositoryImpl @Inject constructor(
             }
         } else {
             val response = legoApi.getAllProducts()
-            response.map { ProductMapper.map(it) }
+            response.products.map { ProductMapper.map(it) }
         }
     }
 

@@ -13,7 +13,7 @@ import dagger.hilt.components.SingletonComponent
 @InstallIn(SingletonComponent::class)
 object RepositoryModule {
 
-    private const val IS_MOCK_ENABLED = true
+    private const val IS_MOCK_ENABLED = false
 
     @Provides
     fun providesLegoRepository(legoApi: LegoApi, context: Context): LegosRepository {
